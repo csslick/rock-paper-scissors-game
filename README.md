@@ -1,5 +1,5 @@
 # rock-paper-scissors-game
-![image](https://user-images.githubusercontent.com/24298382/220281144-2f3b8283-ae91-4a0b-954d-b0df737aa0fd.png)
+![image](https://user-images.githubusercontent.com/24298382/220281144-2f3b8283-ae91-4a0b-954d-b0df737aa0fd.png)  
 DEMO: https://csb-nrgubb.netlify.app/
 
 ## 설명
