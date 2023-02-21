@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  border: 10px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100vw;
+  padding: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+  background: #1e3253;
+  border: 5px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+p,
+.inputBox {
+  margin-bottom: 30px;
+}
+
+.gameIcon {
+  font-size: 50px;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 10px solid #999;
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.3),
+    2px 4px 4px rgba(0, 0, 0, 0.3);
+  color: #333;
+  margin: 10px;
+}
+
+.gameIcon.com {
+  border-color: #e0405c;
+}
+
+.gameIcon.user {
+  border-color: #5572f3;
+}
+
+.App figure {
+  display: flex;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: translate(1px, 2px);
+}
